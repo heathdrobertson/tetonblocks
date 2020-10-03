@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display;900&display=swap');
+
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/variables";
+
+
+/*
+
+#684038 // Brown
+#FAA61A // Orange
+#FFFFFF // White
+#FEC617 // Yellow
+
+$tb_darkbrown: rgba(88, 54, 45, 1); // Dark Brown
+$tb_brown: rgba(104, 64, 56, 1); // Brown
+$tb_orange: rgba(250, 166, 26, 1); // Orange 
+$tb_yellow: rgba(254, 198, 23, 1); // Yellow
+
+*/
+
+$tb-dark-01: rgba(104, 64, 56, 1); // Brown
+$tb-dark-02: rgba(88, 54, 45, 1); // Dark Brown
+$tb-light-01: rgba(254, 198, 23, 1); // Yellow
+$tb-light-02: rgba(250, 166, 26, 1); // Orange 
+
+.tb-light-02{fill:$tb-light-02;} 
+.tb-light-01{fill:$tb-light-01;} 
+.tb-dark-01{fill:$tb-dark-01;} 
+
+$primary: $tb-light-02;
+$secondary: $tb-dark-01;
+$info: rgba(77, 97, 132, 1);
+$success : rgba(52, 103, 52, 1);
+$warning : rgba(215, 163, 41, 1);
+$danger: rgba(133, 32, 30, 1);
+
+$darkgray: rgba(40, 44, 52, 1);
+$lightorange: rgba(193, 83, 27, 1);
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "info": $info,
+    "success": $success,
+    "warning": $warning,
+    "danger": $danger,
+);
+
+$text-color: $secondary;
+$link-color: $primary;
+
+$headings-font-family: "Montserrat", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif:  "Open Sans", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:      $font-family-sans-serif !default;
+$font-family-code:      source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;

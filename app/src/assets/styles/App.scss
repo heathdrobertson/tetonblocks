@@ -1,0 +1,43 @@
+@import "./bootstrap_overrides.scss";
+
+body {
+        background-image: url("../images/svg/background_image.svg");
+        background-position: center top; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+}
+code {
+        font-family: $font-family-code;
+}
+svg {
+        position: relative;
+        top: 0;
+        left: 0;
+}
+#tb-jt {
+        color: $tb-dark-01;
+        border-radius: $border-radius-sm;
+        background-color: $tb-light-01;
+        background-image: url("../images/Tetons_Creek_Pond.jpg");
+        background-position: center top; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+}
+.card-text {
+        color: $tb-dark-01;
+}
+.card-bg {
+        background-color: transparent;
+}
+.top-block {
+        min-height: 80vh;
+}
+.tb-logo {
+        width: 100%;
+        max-width: 350px;
+}
+.tb-footer-icons{
+        color:$tb-dark-01;
+}
+
+@import '~bootstrap/scss/bootstrap'
