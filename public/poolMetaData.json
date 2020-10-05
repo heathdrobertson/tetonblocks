@@ -2,5 +2,6 @@
 "name": "TetonBlocks",
 "description": "A Cardano Stake Pool In The Tetons",
 "ticker": "TETON",
-"homepage": "https://tetonblocks.io"
+"homepage": "https://tetonblocks.io",
+"extended": "https://tetonblocks.io/extended-meta.json"
 }
