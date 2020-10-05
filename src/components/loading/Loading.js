@@ -9,7 +9,7 @@ function Loading() {
         return (
                 <>
                 <Container className="p-5 text-center">
-                <img src={Logo} className="tb-logo"/>
+                <img src={Logo} className="tb-logo" alt="TetonBlocks Logo"/>
                 <Spinner animation="border" role="status">
                         <span className="sr-only">Loading...</span>
                 </Spinner>

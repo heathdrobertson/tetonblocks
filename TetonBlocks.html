@@ -1,11 +1,3 @@
-import React from 'react';
-import { Jumbotron, Container, Card, Figure, Row, Col } from 'react-bootstrap';
-
-import Logo from '../../assets/images/svg/TetonBlocks.svg';
-import Profile from '../../assets/images/heath_profile.jpg';
-
-function Home() {
-        return (
 <>
     <Jumbotron id="tb-jt" fluid>
         <Container>
@@ -13,15 +5,12 @@ function Home() {
                 <Col sm={1} md={3} className="text-center mb-3">
                 <img src={Logo} className="tb-logo" alt="TetonBlocks Logo" />
                 </Col>
-
                 <Col sm={10} md={9}>
                 <h1>Web 3.0</h1>
                 <h2>The Value, Governance, & Digital Asset Web</h2>
-
                 <Row>
-
-                <Col sm={9}>
-                <p className="lead text-justify">
+                    <Col sm={8}>
+                    <p className="text-justify">
                         We are in the beginning process of another phase of internet-based 
                         technological development that will exceed advancements up to this point,
                         providing a far more secure and stable digital world. TetonBlocks
@@ -29,20 +18,17 @@ function Home() {
                         facilitate the adoption of this new technology through
                         education and active participation. Born out of the necessity
                         of assisting family and friends with the adoption of the
-                        new <b><i>Value, Governance, & Digital Asset Web, Web 3.0</i></b>.
-                </p>
-                </Col>
-
-                <Col sm={3}>
-                <Figure className="text-left">
-                <Figure.Image width={110} alt="171x180" src={Profile} rounded />
-                <Figure.Caption className="text-secondary"> Heath Robertson <br />Owner </Figure.Caption>
-                </Figure>
-                </Col>
-
+                        new Value, Governance, and Digital Asset Web, Web 3.0.
+                    </p>
+                    </Col>
+                    <Col sm={4}>
+                    <Figure className="text-left">
+                        <Figure.Image width={110} alt="171x180" src={Profile} rounded />
+                        <Figure.Caption className="text-secondary"> Heath Robertson <br />Owner </Figure.Caption>
+                    </Figure>
+                    </Col>
                 </Row>
                 </Col>
-
             </Row>
         </Container>
     </Jumbotron>
@@ -55,8 +41,16 @@ function Home() {
 
             <Card.Text>
                 <Card.Title> The Premise </Card.Title>
-                <p>
-In the physical universe an object can only occupy the space that it exists in at any given moment.  In the digital world, with a pattern of technologies that gives us the internet, a digital item can easily be replicated and exist in a great number of places.  For example, a copy of this website, displayed in multiple web browsers, on multiple computers at any given moment.  Information is now very easily duplicated and rapidly disseminated, but it would be very useful to have one and only one verifiable object in the digital world.
+                <p className="text-justify">
+                    Outside quantum entanglement, in the physical universe an object can only occupy
+                    the space that it exists in at any given moment. In the digital
+                    world, with a pattern of technologies that gives us the internet,
+                    a digital item can easily be replicated and exist in a great
+                    number of places. For example, a copy of this website, displayed
+                    in multiple web browsers, on multiple computers at any given
+                    moment. Information is now very easily duplicated and rapidly
+                    disseminated. But, it would be very useful to have one and
+                    only one verifiably non-fungible object in the digital world.
                 </p>
             </Card.Text>
 
@@ -109,7 +103,14 @@ In the physical universe an object can only occupy the space that it exists in a
             <Card.Text>
                 <Card.Title>Enter Web 3.0</Card.Title>
                 <p className="text-justify">
-I'll describe it as the ownership and governance web, a digital asset network, or the value and rules web, and it is enabled through a blockchain. What exactly is blockchain?  Blockchain, distilled to its simplest idea is essentially, just a pattern.   A pattern of technologies, cryptographic, mathematical and computational that with enough people participating, creates an immutable record in time.  This computational process facilitates and records a consensus among the participants in the network without or taking the place of a central trusted third-party. 
+                    I'll describe it as the ownership and governance web, a digital asset network,
+                    or the value and rules web, and it is enabled through a blockchain.
+                    What exactly is blockchain? Blockchain, distilled to its simplest
+                    idea is essentially, just a pattern. A pattern of technologies,
+                    cryptographic, mathematical and computational that with enough
+                    people participating, creates an immutable record in time.
+                    This computational process creates a consensus among the participants
+                    in the network without a central trusted third-party.
                 </p>
             </Card.Text>
 
@@ -129,9 +130,9 @@ I'll describe it as the ownership and governance web, a digital asset network, o
                     form, human participation in the network that exists around
                     the Bitcoin blockchain. This participation transfers an elusive
                     characteristic from the physical world to the digital world.
-                    Immutability. Just as you cannot exist in more than one place at any 
-                    given moment, value can now exist within the digital world 
-                    <strong><i> in only one place</i></strong> at any given moment
+                    Immutability. Just as you cannot exist in more than one place
+                    at any given moment, value can now exist in the digital world
+                    <strong><i>in only one place</i></strong> at any given moment
                     and the ownership can be transferred and recorded at ever-increasing
                     speeds.
                 </p>
@@ -158,10 +159,7 @@ I'll describe it as the ownership and governance web, a digital asset network, o
                     transfer the ownership, update the insurance policy and have
                     the agreed upon value transferred to you all within a short
                     amount of time, and it is accomplished by a series of immutable,
-                    un-hackable blockchain protocols.  Extend this idea to stocks, bonds, 
-                    company ownership, insurance, and numerous other creations yet to be 
-                    thought of.  I find the prospects of what could be accomplished 
-                    exhilarating and jaw dropping.
+                    un-hackable blockchain protocols.
                 </p>
             </Card.Text>
 
@@ -226,15 +224,15 @@ I'll describe it as the ownership and governance web, a digital asset network, o
             <Card.Text>
                 <Card.Title>Participation</Card.Title>
                 <p className="text-justify">
-We can potentially use these tools to solve some of our most complex problems in a more balanced, fair and democratic process.   Given the decentralized nature of these technologies,  the marketing and education is reliant on the crowd or a network effect.  People like you and  me learning and using this new technology.  I believe that many of the issues and problems we have today, are a direct result of centrally controlled and vertically integrate power structures that can be shaped and influenced by a few people, preventing necessary change.  So jump on in, the water is a bit choppy now but the more people participating, the stronger and more stable these new systems become.   I'll do my best help you navigate the turbulence.
-<p className="text-right">- Heath</p>
+                    We can potentially use these tools to solve some of our most complex problems in
+                    a more balanced, fair and democratic process. So jump on in,
+                    the water is a bit turbulent now but the more people, the stronger
+                    and more stable these new systems become by increasing the
+                    network effect simply through participation. I'll do my best
+                    help you navigate the turbulence.
                 </p>
             </Card.Text>
 
         </Card.Body>
     </Card>
     </>
-        );
-}
-
-export default Home;

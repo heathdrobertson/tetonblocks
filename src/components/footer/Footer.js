@@ -4,7 +4,6 @@ import { IconContext } from "react-icons";
 import { FaRssSquare, FaYoutubeSquare, FaGithubSquare, FaRedditSquare, FaTwitterSquare, FaTelegram, FaLinkedin } from 'react-icons/fa';
 
 import Profile from '../../assets/images/heath_profile.jpg';
-import Logos from '../logos/Logos.js';
 
 const Footer = () => {
         return (

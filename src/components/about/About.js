@@ -1,7 +1,6 @@
 import React from 'react';
-import { Container, Card } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
-import Logos from '../logos/Logos.js';
 
 function Footer() {
         return (

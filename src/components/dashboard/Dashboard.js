@@ -1,8 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
-import { Container, Navbar, Nav, NavDropdown, Row, Col } from 'react-bootstrap'
+import { Container, Navbar, Nav } from 'react-bootstrap'
 
-import Logos from '../logos/Logos.js';
 
 import Home from '../home/Home.js';
 import About from '../about/About.js';

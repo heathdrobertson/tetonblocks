@@ -1,5 +1,4 @@
 import React, { useEffect, useState }from 'react';
-import { Container, Row, Col } from 'react-bootstrap'
 
 import Loading from './components/loading/Loading.js';
 import Dashboard from './components/dashboard/Dashboard.js';
