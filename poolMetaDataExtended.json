@@ -1,0 +1,41 @@
+{
+    "info": {
+        "url_png_icon_64x64": "https://tetonblocks.io/tetonblocks-icon-64x64.png",
+        "url_png_logo": "https://tetonblocks.io/TetonBlocks.png",
+        "location": "Wyoming, USA",
+        "social": {
+            "twitter_handle": "https://twitter.com/heathdrobertson",
+            "telegram_handle": "https://t.me/HeathDRobertson",
+            "facebook_handle": "https://www.facebook.com/heath.d.robertson/",
+            "youtube_handle": "https://youtube.com/channel/UCG4Av0xeLAD-hJCQHMrYqtA",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": "https://github.com/heathdrobertson"
+        },
+        "company": {
+            "name": "TetonBlocks",
+            "addr": "PO Box 726",
+            "city": "Jackson",
+            "country": "Jackson",
+            "company_id": "",
+            "vat_id": ""
+        },
+        "about": {
+            "me": "Technophile, Linux System Administrator, Web Developer, Graphic Designer",
+            "server": "Ubuntu 20.04",
+            "company": "TetonBlocks"
+        },
+        "rss": ""
+    },
+    "my-pool-ids": {
+        "0": "0f292fcaa02b8b2f9b3c8f9fd8e0bb21abedb692a6d5058df3ef2735",
+        "1": "618ab17ec8ea7239b4ac0c826b667c599489e25524ce74841a29d510"
+    },
+    "when-satured-then-recommend": {
+        "0": "",
+        "1": ""
+    },
+    "telegram-admin-handle": {
+        "0": "https://t.me/HeathDRobertson"
+    }
+}
