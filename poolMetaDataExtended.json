@@ -15,13 +15,13 @@
         "company": {
             "name": "TetonBlocks",
             "addr": "PO Box 726",
-            "city": "Jackson",
-            "country": "Jackson",
+            "city": "Jackson, Wyoming 83001",
+            "country": "USA",
             "company_id": "",
             "vat_id": ""
         },
         "about": {
-            "me": "Technophile, Linux System Administrator, Web Developer, Graphic Designer",
+            "me": "Propelling Web 3.0 - The Value, Governance, & Digital Asset Web",
             "server": "Ubuntu 20.04",
             "company": "TetonBlocks"
         },
