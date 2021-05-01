@@ -1,15 +1,15 @@
 {
     "info": {
-        "url_png_icon_64x64": "https://tetonblocks.io/tetonblocks-icon-64x64.png",
-        "url_png_logo": "https://tetonblocks.io/TetonBlocks.png",
+        "url_png_icon_64x64": "https://bit.ly/3tfEtFm",
+        "url_png_logo": "https://bit.ly/3nDj87j",
         "location": "Wyoming, USA",
         "social": {
-            "twitter_handle": "https://twitter.com/heathdrobertson",
-            "telegram_handle": "https://t.me/HeathDRobertson",
-            "facebook_handle": "https://www.facebook.com/heath.d.robertson/",
+            "twitter_handle": "https://twitter.com/",
+            "telegram_handle": "https://t.me/TetonPool",
+            "facebook_handle": "https://twitter.com/TetonBlocks",
             "youtube_handle": "https://youtube.com/channel/UCG4Av0xeLAD-hJCQHMrYqtA",
             "twitch_handle": "",
-            "discord_handle": "",
+            "discord_handle": "Heath#5691",
             "github_handle": "https://github.com/heathdrobertson"
         },
         "company": {
@@ -22,7 +22,7 @@
         },
         "about": {
             "me": "Propelling Web 3.0 - The Value, Governance, & Digital Asset Web",
-            "server": "Ubuntu 20.04",
+            "server": "Ubuntu 20.10 - Internet 940 Mbps",
             "company": "TetonBlocks"
         },
         "rss": ""
